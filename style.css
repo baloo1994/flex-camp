@@ -2,15 +2,24 @@ body {
     background-color: #0c2466
 }
 
+
+.kort-rad {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
 .kort {
     padding: 1rem;
     background-color: #df0ebc;
     border: 3px solid #e2e8f0;
     color: #0f172a;
     font-family: sans-serif;
+    flex: 1 1 200px;
+
 }
 
 .kort img {
     max-width: 100%;
     height: auto;
 }
+
